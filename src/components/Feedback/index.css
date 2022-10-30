@@ -1,0 +1,52 @@
+.app-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.feedback-container {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+.emoji-btn {
+  border: 0px;
+  background: transparent;
+}
+
+.emojis-container {
+  display: flex;
+}
+
+.emoji {
+  width: 50%;
+}
+.emoji-container {
+  list-style-type: none;
+}
+
+@media (min-width: 700px) {
+  font-size: 40px;
+}
+
+.question {
+  font-family: Roboto;
+  font-size: 30px;
+  color: #0f172a;
+  font-weight: 800;
+}
+
+.card-container {
+  text-align: center;
+}
+
+/* Hex: #ffeeee
+Hex: #ffc0bb
+Hex: #ffebeb
+Hex: #ffffff
+Hex: #0f172a
+Hex: #1e293b */
